@@ -1,0 +1,5 @@
+#!/bin/sh
+
+/usr/bin/invoke_app "$@" -C "start_jupyter -A -T @tool Ulises_app.ipynb" \
+    -t emboliapp \
+    -u anaconda3-5.1
